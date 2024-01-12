@@ -2,7 +2,7 @@
 It's a console-based multithreaded ChatServer that employs Java Socket programming. Sockets are used to communicate between client and server. Server actively listens for connection requests from clients across the network. Clientside socket connect to the server via an IP address and port number. In our case server is listening on localhost and port:1234. The client selects his or her username in the chat room after connecting to the server. The client submits a message, which is then transmitted to the server using Java's OutputStreamWriter and the server reads the message using Java's InputStreamReader in the simiilar way server broadcast this message to the other clients.
 ## How to run the project
 Clone this repo in vs code by opening new window using Ctrl+shift+N and then selecting the option clone github rep then search for saranshgour5/MultithreadedChatApplication
-it'll clone all the files into your computer. then first server.java and then run multiple times client.java and enter username for each client.
+it'll clone all the files into your computer. then first run server.java and then run multiple times client.java and enter username for each client.
 ## Working of the project
 This project consists of three classes Server.java, ClientHandler.java, Client.java.<br/>
 Let's discuss working of each one by one.<br/>
